@@ -1,18 +1,8 @@
 <?php
 
+require_once "../vendor/autoload.php";
 
-function isPrime(int $val): bool
-{
-    $limit = intval(ceil(sqrt($val)));
-
-    for($i=2; $i < $limit; $i++) {
-        if($val % $i === 0) {
-            return false;
-        }
-    }
-
-    return true;
-}
+use Libraries\Math;
 
 $numberToFactorise = 600851475143;
 
@@ -22,7 +12,7 @@ $found = false;
 
 while( ! $found) {
 
-    if(($numberToFactorise % $candidate === 0) && (isPrime($candidate))) {
+    if(($numberToFactorise % $candidate === 0) && (Math::isPrime($candidate))) {
         $found = true;
     } else {
         $candidate -= 2;

@@ -1,0 +1,8 @@
+{
+  "name": "RossCasey/ProjectEuler",
+  "autoload": {
+    "psr-4" : {
+      "Libraries\\" : "Libraries"
+    }
+  }
+}
