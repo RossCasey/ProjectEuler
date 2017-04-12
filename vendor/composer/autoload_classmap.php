@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Problems\\Problem11\\Src\\Grid' => $baseDir . '/Problems/Problem-11/Src/Grid.php',
+    'Problems\\Problem11\\Src\\Point' => $baseDir . '/Problems/Problem-11/Src/Point.php',
 );

@@ -1,8 +1,12 @@
 {
   "name": "RossCasey/ProjectEuler",
   "autoload": {
+    "classmap": [
+      "Problems"
+    ],
     "psr-4" : {
-      "Libraries\\" : "Libraries"
+      "Libraries\\" : "Libraries",
+      "Problems\\" : "Problems"
     }
   }
 }
