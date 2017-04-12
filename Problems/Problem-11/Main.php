@@ -39,8 +39,8 @@ $masks = [
 $largest = -1;
 
 
-for($y = 0; $y < 20; $y++) {
-    for($x = 0; $x < 20; $x++) {
+for($y = 0; $y < $grid->getHeight(); $y++) {
+    for($x = 0; $x < $grid->getWidth(); $x++) {
 
         $point = new Point($x, $y);
 
