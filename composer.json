@@ -8,5 +8,8 @@
       "Libraries\\" : "Libraries",
       "Problems\\" : "Problems"
     }
+  },
+  "require": {
+    "brick/math": "^0.5.4"
   }
 }

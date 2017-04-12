@@ -8,4 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'Problems\\' => array($baseDir . '/Problems'),
     'Libraries\\' => array($baseDir . '/Libraries'),
+    'Brick\\Math\\Tests\\' => array($vendorDir . '/brick/math/tests'),
+    'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
 );
