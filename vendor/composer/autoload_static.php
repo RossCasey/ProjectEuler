@@ -31,6 +31,7 @@ class ComposerStaticInitf04e6182c71a6a819a2c641787eced60
     public static $classMap = array (
         'Problems\\Problem11\\Src\\Grid' => __DIR__ . '/../..' . '/Problems/Problem-11/Src/Grid.php',
         'Problems\\Problem11\\Src\\Point' => __DIR__ . '/../..' . '/Problems/Problem-11/Src/Point.php',
+        'Problems\\Problem12\\Src\\TriangleNumberIterator' => __DIR__ . '/../..' . '/Problems/Problem-12/Src/TriangleNumberIterator.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

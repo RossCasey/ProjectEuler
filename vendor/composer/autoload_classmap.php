@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Problems\\Problem11\\Src\\Grid' => $baseDir . '/Problems/Problem-11/Src/Grid.php',
     'Problems\\Problem11\\Src\\Point' => $baseDir . '/Problems/Problem-11/Src/Point.php',
+    'Problems\\Problem12\\Src\\TriangleNumberIterator' => $baseDir . '/Problems/Problem-12/Src/TriangleNumberIterator.php',
 );
