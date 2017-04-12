@@ -62,7 +62,7 @@ class Grid
      * @param Point $vector
      * @return array
      */
-    public function getValuesBetween(Point $point, Point $vector): array
+    public function getValuesInDirection(Point $point, Point $vector): array
     {
         $steps = max(abs($vector->x), abs($vector->y));
 

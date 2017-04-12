@@ -48,7 +48,7 @@ for($y = 0; $y < 20; $y++) {
 
             if($grid->onGrid($point->add($mask))) {
 
-                $values = $grid->getValuesBetween($point, $mask);
+                $values = $grid->getValuesInDirection($point, $mask);
 
                 $product = array_product($values);
 
